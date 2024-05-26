@@ -59,7 +59,7 @@ class LiquidPullRefresh extends StatefulWidget {
       this.showChildOpacityTransition = true,
       this.loaderWidget,
       this.showDroplet = true,
-      this.heightLoader,
+      this.heightLoader=100,
       this.bottomShaddow = false,
       this.bottomShaddowCollor})
       : assert(animSpeedFactor >= 1.0),
@@ -86,7 +86,7 @@ class LiquidPullRefresh extends StatefulWidget {
   final double? height;
 
   /// default is set to 100.0
-  final double? heightLoader;
+  final double heightLoader;
 
   /// default to false
   final bool bottomShaddow;
